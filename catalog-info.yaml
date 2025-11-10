@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-elasticache-slowlog-to-datadog
+  title: Terraform ElastiCache Slowlog to Datadog
+  description: Deploys AWS Lambda function to forward ElastiCache slowlog metrics to Datadog
+  tags:
+    - terraform
+    - aws
+    - monitoring
+    - datadog
+  annotations: {}
+spec:
+  type: library
+  lifecycle: production
+  owner: group:default/gla
